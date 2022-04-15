@@ -1,0 +1,115 @@
+.main_div {
+    background-color: rgb(59, 59, 53);
+    height: 48rem;
+    width: 94rem;
+}
+
+.mainh1 {
+    text-align: center;
+}
+
+.Second_div {
+    background-color: rgb(143, 163, 219);
+    height: 26rem;
+    width: 90;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 10rem;
+}
+
+.manintable {
+    margin-bottom: 1rem;
+    overflow: scroll;
+    height: 22rem;
+    font-size: 20px;
+}
+
+.Second2_div {
+    margin-top: -1rem;
+    background-color: rgb(148, 101, 223);
+    height: 5rem;
+}
+
+.addtime {
+    width: 11.69rem;
+}
+
+.search1 {
+    margin-left: 60rem;
+    margin-top: 1.5rem;
+    height: 2rem;
+    width: 10rem;
+}
+
+.searchenter {
+    margin-left: 72rem;
+    margin-top: -2rem;
+}
+
+.reloadbtn {
+    margin-left: 76.9rem;
+    margin-top: -1.9rem;
+}
+
+.tablesec {
+    margin-top: -6rem;
+    margin-left: 21rem;
+    padding: 8rem;
+}
+
+.third_div {
+    background-color: rgb(200, 202, 112);
+    height: 13rem;
+    width: 84rem;
+    margin-left: 5rem;
+    margin-top: -8rem;
+}
+
+.thirdinput {
+    margin-left: 5rem;
+    margin-top: 2rem;
+    height: 5rem;
+    width: 42rem;
+}
+
+.third2_div {
+    background-color: rgb(160, 221, 221);
+    height: 5rem;
+}
+
+.mdfytime {
+    margin-top: -1rem;
+    text-align: center;
+}
+
+.txtinput {
+    height: 1.5rem;
+    width: 30rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    font-size: 40px;
+    margin-left: 10rem;
+}
+
+.thirdbtn {
+    margin-top: -5rem;
+    margin-right: 1rem;
+}
+
+.btnadd {
+    margin-left: 60rem;
+    height: 3rem;
+    width: 5rem;
+    font-size: large;
+}
+
+.btnsave {
+    margin-left: 60rem;
+    height: 3rem;
+    width: 5rem;
+    font-size: 1.5rem;
+}
+
+.third2_idshow {
+    margin-right: 60rem;
+}
