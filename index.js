@@ -23,24 +23,38 @@ function addtaskbtn() {
             localStorage.setItem('localtask', '[]');
         }
         let taskobj = JSON.parse(webtask)
-        console.log(taskobj[2].TaskName)
+// debugger     
+       let abc =  taskobj.filter(e =>e.TaskName === addtaskinputval)
+     
+       if(abc.length){
+           console.log(abc.length)
+        //  debugger
+         alert("Data is already save")
+     }else{
+         taskobj.push(objdata);
+         localStorage.setItem('localtask', JSON.stringify(taskobj))
+            alert("Data is Save")
+     }
+     
+    }
+     
+     
+     
+        // console.log(taskobj[2].TaskName)
             // taskobj.filter(function(i) {
             // taskobj.filter(function(ind) {
             // console.log(ind)
             // console.log(taskobj[2].TaskName)
-        if (taskobj[ind].TaskName !== addtaskinputval) {
-            taskobj.push(objdata);
-            localStorage.setItem('localtask', JSON.stringify(taskobj))
-        }
+        // if (taskobj[ind].TaskName !== addtaskinputval) {
 
         // })
 
         showtask();
         addtaskinput.value = ''
 
+        window.location.reload()
     }
-    window.location.reload()
-};
+// };
 
 
 
